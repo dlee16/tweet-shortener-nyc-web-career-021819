@@ -33,11 +33,10 @@ def bulk_tweet_shortener(tweets)
 end
 
 def selective_tweet_shortener(tweet)
-  array=[]
   new_tweet = tweet.split('')
   if new_tweet.length < 140
-    binding pry
     new_tweet.join(' ')
+     binding pry
   else
    puts bulk_tweet_shortener(tweet)
    
