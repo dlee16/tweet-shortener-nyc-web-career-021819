@@ -34,11 +34,10 @@ end
 
 def selective_tweet_shortener(tweet)
   if tweet.length > 140
-    puts new_tweet.join(' ')
+    puts word_substituter(tweet)
     binding pry
   else
-   puts word_substituter(tweet)
-   
+   tweet
   end
 end
 
