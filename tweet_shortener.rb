@@ -35,7 +35,7 @@ end
 def selective_tweet_shortener(tweet)
   array=[]
   new_tweet = tweet.split('')
-  if tweet.split.length < 140
+  if new_tweet.length < 140
     return tweet.join(' ')
   else
    puts bulk_tweet_shortener(tweet)
