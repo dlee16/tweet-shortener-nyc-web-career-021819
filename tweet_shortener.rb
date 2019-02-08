@@ -39,7 +39,7 @@ def selective_tweet_shortener(tweet)
     new_tweet.join(' ')
     
   else
-   puts bulk_tweet_shortener(tweet)
+   puts word_substituter(tweet)
    
   end
 end
